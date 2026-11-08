@@ -31,6 +31,6 @@ jobs:
             -t ghcr.io/felipeceza/projeto-einfo:v1 .
         
       - name: Push da imagem
-        run: docker push ghcr.io/felipeceza/projeto-einfo:v1 .
+        run: docker push ghcr.io/felipeceza/projeto-einfo:v1
 
         
